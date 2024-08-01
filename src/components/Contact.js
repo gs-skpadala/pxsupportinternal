@@ -12,6 +12,7 @@ const Contact = () => {
         <button>Contact Button 1</button>
         <button>Contact Button 2</button>
         <button>Contact Button 3</button>
+        <button>Contact Button 4</button>
       </div>
   );
 };
