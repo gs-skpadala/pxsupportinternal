@@ -18,7 +18,8 @@ const LoginForm = ({ setIsLoggedIn }) => {
         "id": "skpadala@gainsight.com",
         "email": "skpadala@gainsight.com",
         "firstName": "Padala",
-        "lastName": "Sai"
+        "lastName": "Sai",
+        "city": "HYD"
       }, {
         "id": "12345",
         "name": "BMW"
