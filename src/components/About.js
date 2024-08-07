@@ -13,6 +13,7 @@ const About = () => {
       <button>Button A</button>
       <button>Button B</button>
       <button>Button C</button>
+      <button>Button D</button>
     </div>   
   );
 };
