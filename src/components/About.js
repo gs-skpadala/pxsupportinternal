@@ -1,21 +1,22 @@
 // components/About.js
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 
 const About = () => {
 
-  useEffect(() => {
-    document.title = 'About Page'; // Set the page title
-  }, []);
+    useEffect(() => {
+        document.title = 'About Page'; // Set the page title
+    }, []);
 
-  return (
-    <div>
-      <h1>About Us</h1>
-      <button>Button A</button>
-      <button>Button B</button>
-      <button>Button C</button>
-      <button>Button D</button>
-    </div>   
-  );
+    return (
+        <div>
+            <h1>About Us</h1>
+            <h3>Get a Bot by clicking help button for quick assistance</h3>
+            <button id="help">help</button>
+            <button>Button B</button>
+            <button>Button C</button>
+            <button>Button D</button>
+        </div>
+    );
 };
 
 export default About;
