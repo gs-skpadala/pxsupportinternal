@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div>
             <h1>About Us</h1>
-            <h3>Get a Bot by clicking help button for quick assistance</h3>
+            <h3>Get a Bot by clicking help button for quick assistance to user</h3>
             <button id="help">help</button>
             <button>Button B</button>
             <button>Button C</button>
