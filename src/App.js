@@ -8,7 +8,6 @@ import Contact from './components/Contact';
 import LoginForm from './components/LoginForm';
 import Logout from './components/Logout';
 import Dropdown from './components/Dropdown';
-import NotFoundPage from './components/NotFoundPage';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -54,7 +53,6 @@ const App = () => {
           <Route path="/dropdown" element={isLoggedIn ? <Dropdown /> : <Navigate to="/" />} />
           <Route path="/" element={isLoggedIn ? <Home /> : <Navigate to="/login" />} />
           {/* Fallback route for incorrect URLs */}
-          <Route path="*" element={<NotFoundPage />} />
         </Routes>
 
 
